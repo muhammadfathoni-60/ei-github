@@ -1,1 +1,9 @@
+def hitung_luas_lingkaran(jari_jari):
+    pi = 3.14
+    luas = pi * (jari_jari ** 2)
+    return luas
+
+jari_jari = 5
+print("Luas lingkaran dengan jari-jari", jari_jari, "adalah", hitung_luas_lingkaran(jari_jari))
+
 
